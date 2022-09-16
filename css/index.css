@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+html{
+    font-family: 標楷體;
+    background-image: url("https://live.staticflickr.com/65535/52301788993_d1a62f6e09_k.jpg");
+    background-size: 100%;
+    
+    
+}
+
+
+.title{
+    width:29%;
+    line-height: 10rem;;
+    margin-right:10px;
+    float:left;
+    font-size: 5rem;
+    color: gray;
+    text-align: center;
+    /* border:2px white solid; */
+}
+
+.list{
+  padding-top: 0;
+    width:70%;
+    line-height: 10rem;;
+    /* border:2px white solid; */
+    float:right;
+    font-size: 2rem;
+    text-align: left;
+  }
+  
+  .list li{
+    float: right;
+    list-style-type:none;
+  } 
+  
+
+  .list li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #6A8F8E;
+    font-size: 5rem;
+    font-weight: 50;
+    padding-right: 10rem;
+    font-family: 標楷體;
+  }
+ 
+    .text{
+        padding-top:5rem;
+        /* border:2px white solid; */
+       padding-bottom: 1rem;
+    }
+
+  .text1{
+    padding-top: 0%;
+    margin: 0 auto;
+    font-size: 50px;
+    color:black;
+    padding-left: 1rem;
+    
+  }
+  
+
+  
+
+  .text2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 50%;
+    color: black;
+    padding-left: 1rem;
+   
+  }
+  
+
+  .footer{
+    background-color: black;
+    font-family: 標楷體;
+    color:silver;
+    text-align:center;
+    padding-top: 1rem;
+    /* border:2px white solid; */
+  }
